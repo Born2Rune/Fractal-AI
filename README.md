@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L61XKXMG)
+
 # Fractal AI - Semantic Memory Layer
 
 A high-performance semantic memory layer for LLMs that achieves **77x improvement** in information retrieval through perspective-based pattern extraction and dynamic optimization.
