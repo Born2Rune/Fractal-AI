@@ -14,7 +14,7 @@ A high-performance semantic memory layer for LLMs that achieves **77x improvemen
 - **Improvement:** 77x over baseline
 
 **Token Capacity:**
-- **Tested:** Up to 20M tokens (single session)
+- **Tested:** Up to 133M tokens (single session)
 - **Compression:** 99.76% typical (1000:1 ratio)
 - **Theoretical Limit:** Unlimited with pattern-based compression
 - **Practical Limit:** Constrained only by available memory
