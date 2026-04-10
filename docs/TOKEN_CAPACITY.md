@@ -1,10 +1,10 @@
 # Token Capacity and Unlimited Context
 
-## 🎯 Overview
+##  Overview
 
 Fractal AI achieves **unlimited context capacity** through intelligent pattern-based compression, breaking through traditional LLM context window limitations.
 
-## 📊 Tested Capacity
+##  Tested Capacity
 
 ### Proven Performance
 - **20M tokens:** Successfully tested in single session
@@ -22,7 +22,7 @@ Dataset: Multi-book corpus
 - Success rate: 100% (5/5 queries)
 ```
 
-## 🚀 Unlimited Context Mechanism
+##  Unlimited Context Mechanism
 
 ### 1. Pattern-Based Compression
 
@@ -98,7 +98,7 @@ compressed_context = compress_patterns(
 # Final compression: 99.76% (100K tokens → 240 tokens typical)
 ```
 
-## 💡 Theoretical Limits
+##  Theoretical Limits
 
 ### No Hard Token Limit
 
@@ -128,7 +128,7 @@ compressed_context = compress_patterns(
 
 **Note:** Query time scales logarithmically (FAISS), ingestion time scales linearly (pattern extraction).
 
-## 🎯 Use Cases
+##  Use Cases
 
 ### 1. Entire Codebase Indexing
 ```python
@@ -177,7 +177,7 @@ result = memory.query("Explain quantum entanglement", max_context_tokens=4000)
 # Returns: Most relevant passages from 100 books in 10ms
 ```
 
-## 📈 Compression Analysis
+##  Compression Analysis
 
 ### Compression Breakdown
 
@@ -222,7 +222,7 @@ Despite 99.9% compression, quality is preserved through:
 - Compression: 99.76%
 - **Quality/Compression Tradeoff:** Excellent
 
-## 🔬 Technical Deep Dive
+##  Technical Deep Dive
 
 ### Memory Efficiency
 
@@ -267,7 +267,7 @@ n = 1,000,000: 15ms (1M patterns, theoretical)
 # Total query time dominated by FAISS search
 ```
 
-## 🎯 Recommendations
+##  Recommendations
 
 ### For Maximum Capacity
 ```python
@@ -312,7 +312,7 @@ memory.target_variance_coverage = 0.90  # 90% variance (vs 85%)
 memory.max_dimensions = 256             # Full dimensions
 ```
 
-## 📊 Comparison to Alternatives
+##  Comparison to Alternatives
 
 | Approach | Max Context | Query Speed | Compression | Quality |
 |----------|-------------|-------------|-------------|---------|
@@ -328,7 +328,7 @@ memory.max_dimensions = 256             # Full dimensions
 - ✅ Highest compression (99.76%)
 - ✅ Competitive quality (48.9% of SOTA)
 
-## 🚀 Future Scaling
+##  Future Scaling
 
 ### Potential Improvements
 
@@ -350,7 +350,7 @@ memory.max_dimensions = 256             # Full dimensions
 - Benefit: Real-time knowledge accumulation
 - Use case: Continuous learning systems
 
-## 📝 Conclusion
+##  Conclusion
 
 Fractal AI achieves **unlimited context capacity** through:
 1. **Pattern-based compression:** 10:1 structural compression
