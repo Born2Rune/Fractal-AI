@@ -4,7 +4,7 @@
 
 A high-performance semantic memory layer for LLMs that achieves **77x improvement** in information retrieval through perspective-based pattern extraction and dynamic optimization.
 
-## 🎯 Performance
+##  Performance
 
 **BEIR scifact Benchmark Results:**
 - **nDCG@10:** 0.3249 (48.9% of SOTA)
@@ -21,7 +21,7 @@ A high-performance semantic memory layer for LLMs that achieves **77x improvemen
 
 See [BENCHMARK_RESULTS.md](docs/BENCHMARK_RESULTS.md) for detailed metrics.
 
-## ✨ Features
+##  Features
 
 ### Core Capabilities
 - **Perspective-Based Extraction:** Analyzes text from 6 semantic perspectives (titles, concepts, phrases, evidence, technical terms, general text)
@@ -40,7 +40,7 @@ See [BENCHMARK_RESULTS.md](docs/BENCHMARK_RESULTS.md) for detailed metrics.
 - **Token Capacity:** 20M+ tokens tested, theoretically unlimited
 - **Memory Efficiency:** Int8 quantization enables massive corpora
 
-## 💡 Unlimited Context Potential
+##  Unlimited Context Potential
 
 Fractal AI breaks through traditional LLM context window limitations:
 
@@ -90,7 +90,7 @@ Traditional LLMs are limited to 4K-128K token windows. Fractal AI enables:
 - **Cost-effective scaling** through intelligent compression
 - **Production-ready** performance at any scale
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -145,7 +145,7 @@ memory.num_workers = 15  # CPU cores
 memory.use_gpu_batch = True
 ```
 
-## 📊 Benchmarking
+##  Benchmarking
 
 Run BEIR benchmark:
 
@@ -159,7 +159,7 @@ Run MS MARCO benchmark:
 python benchmark_msmarco.py
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -194,7 +194,7 @@ python benchmark_msmarco.py
 └─────────────────────────────────────────────────────────┘
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fractal-ai/
@@ -212,7 +212,7 @@ fractal-ai/
 └── README.md                        # This file
 ```
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Perspective-Based Extraction
 
@@ -243,7 +243,7 @@ combined_score = 0.7 * semantic_score + 0.3 * keyword_score
 final_score = combined_score * pattern.importance_score
 ```
 
-## 📈 Performance Comparison
+##  Performance Comparison
 
 | System | nDCG@10 | Speed | Memory |
 |--------|---------|-------|--------|
@@ -269,21 +269,21 @@ If you use this work in your research, please cite:
 ```bibtex
 @software{fractal_ai_2026,
   title={Fractal AI: Semantic Memory Layer for LLMs},
-  author={Your Name},
+  author=Daniel Vickers,
   year={2026},
-  url={https://github.com/yourusername/fractal-ai}
+  url={https://github.com/born2rune/fractal-ai}
 }
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Inspired by DSAI paper on multi-perspective latent feature extraction
 - Built on sentence-transformers and FAISS libraries
