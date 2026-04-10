@@ -2,7 +2,7 @@
 
 This document provides an overview of the Fractal AI codebase structure and key components.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fractal-ai/
@@ -23,7 +23,7 @@ fractal-ai/
 
 ---
 
-## 🔑 Core Components
+##  Core Components
 
 ### 1. Memory Layer (`enhancements/memory_layer.py`)
 
@@ -264,7 +264,7 @@ embeddings_float32 = embeddings_int8.astype(float32) / 127.0
 
 ---
 
-## 🎯 Key Design Decisions
+##  Key Design Decisions
 
 ### 1. Why Perspective-Based Extraction?
 - **Problem:** Single-view analysis misses semantic richness
@@ -293,7 +293,7 @@ embeddings_float32 = embeddings_int8.astype(float32) / 127.0
 
 ---
 
-## 📊 Performance Characteristics
+##  Performance Characteristics
 
 ### Ingestion
 - **Speed:** 192 patterns/second
@@ -360,7 +360,7 @@ memory.cache_similarity_threshold = 0.85  # Cache hit threshold
 
 ---
 
-## 🔍 Debugging
+##  Debugging
 
 ### Enable Debug Output
 The first query automatically prints scoring breakdown:
@@ -390,7 +390,7 @@ print(f"Variance coverage: {memory._calculate_variance_coverage():.1f}%")
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 See [BENCHMARK_RESULTS.md](BENCHMARK_RESULTS.md) for detailed improvement suggestions:
 - Cross-encoder reranking (+10-15%)
